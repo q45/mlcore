@@ -19,7 +19,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>For you to shoot a photo for object recognition</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>For you to select a photo for object recognition</string>
+	<string>Pick a Photo</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
