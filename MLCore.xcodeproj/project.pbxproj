@@ -12,6 +12,7 @@
 		100D63FF1EF240C600816C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D63FD1EF240C600816C83 /* Main.storyboard */; };
 		100D64011EF240C600816C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100D64001EF240C600816C83 /* Assets.xcassets */; };
 		100D64041EF240C600816C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D64021EF240C600816C83 /* LaunchScreen.storyboard */; };
+		100D640C1EF24C3600816C83 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 100D640B1EF24C3500816C83 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		100D64001EF240C600816C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		100D64031EF240C600816C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		100D64051EF240C600816C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100D640B1EF24C3500816C83 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		100D63ED1EF240C600816C83 = {
 			isa = PBXGroup;
 			children = (
+				100D640B1EF24C3500816C83 /* Inceptionv3.mlmodel */,
 				100D63F81EF240C600816C83 /* MLCore */,
 				100D63F71EF240C600816C83 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				100D63FC1EF240C600816C83 /* ViewController.swift in Sources */,
+				100D640C1EF24C3600816C83 /* Inceptionv3.mlmodel in Sources */,
 				100D63FA1EF240C600816C83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
